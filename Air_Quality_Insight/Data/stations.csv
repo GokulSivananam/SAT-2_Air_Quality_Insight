@@ -1,0 +1,7 @@
+station,location,land_use_type
+ST01,Central City,commercial
+ST02,Industrial Zone,industrial
+ST03,Residential North,residential
+ST04,Highway Junction,transport
+ST05,Urban Park,green_space
+ST06,Commercial District,commercial

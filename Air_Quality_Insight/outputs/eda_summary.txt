@@ -1,0 +1,62 @@
+EDA SUMMARY – AIR QUALITY INSIGHT
+==================================================
+
+Q1: Average AQI by station
+           mean  median
+station                
+ST02     138.86  138.24
+ST04     122.65  122.72
+ST06     107.71  107.24
+ST01      98.09   97.76
+ST03      67.77   67.56
+ST05      40.71   40.36
+
+Q2: Hourly AQI trends
+hour
+0      90.11
+1      90.92
+2      89.07
+3      89.19
+4      90.04
+5      90.07
+6      90.04
+7     106.06
+8     106.18
+9     107.37
+10    106.06
+11     89.57
+12     88.06
+13     90.14
+14     89.60
+15     90.10
+16    105.98
+17    106.37
+18    105.79
+19    106.42
+20    107.22
+21     89.41
+22     89.89
+23     89.54
+
+Q3: Wind speed vs PM2.5 correlation
+  Pearson correlation (wind vs pm2_5): -0.138
+
+Q4: Traffic volume vs AQI
+  Pearson correlation (traffic_volume vs aqi): 0.244
+  Mean AQI by peak_flag:
+peak_flag
+off_peak     89.72
+peak        106.38
+
+Q5: Rain effect on PM2.5
+       mean  median
+rain               
+0     29.31   29.62
+1     22.85   22.24
+
+Q6: Seasonal AQI comparison
+         mean  median     max
+season                       
+summer  95.84  101.05  291.09
+winter  96.03  101.16  291.09
+  No missing values in master dataset.
